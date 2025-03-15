@@ -27,6 +27,9 @@ class PostController extends Controller
         return $request->all();
     }
 
+
+
+
     public function patch(Request $request)
     {
         return $request->all();
