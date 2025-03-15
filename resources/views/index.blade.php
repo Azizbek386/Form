@@ -21,6 +21,7 @@
     </form>
 
     <form action="/update" method="POST">
+        
         @csrf
         @method('PUT')
         <input type="text" name="name" placeholder="Yangi ism">
