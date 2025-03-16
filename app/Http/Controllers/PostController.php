@@ -22,6 +22,7 @@ class PostController extends Controller
         return $request->all();
     }
 
+    
     public function update(Request $request)
     {
         return $request->all();
